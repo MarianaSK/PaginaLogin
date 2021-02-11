@@ -1,0 +1,94 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .background--padrao{
+      background-image: linear-gradient(0deg, #FD94FF, #DF744A);
+      width: 100%;
+      height: 100%;
+  }
+
+  .caixa--email--senha{
+      width: 336px;
+      height: 226px;
+
+      background: white;
+
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      margin: 0px;
+      position: absolute;
+  }
+
+  form {
+    display: grid;
+    grid-template-rows: 49% 2% 29% 70%;
+    width: 100%;
+    height: 100%;
+  }
+
+  fieldset {
+      border: none;
+      margin: 25px;
+  }
+
+  .separador{
+    background: #eaeaea;
+    height: 2px;
+    margin: 0px 25px 0px 25px;
+  }
+
+  input {
+    height: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+    bottom: 17px;
+  }
+
+  .campo--email {
+    display: grid;
+    grid-template-columns: 17% 23% 70%;
+    place-content: center;
+  }
+
+  .campo--senha {
+    display: grid;
+    grid-template-columns: 16% 23% 60% 10%;
+    place-content: center;
+    padding-top: 20px;
+  }
+
+  .esqueci--senha {
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 73px;
+  }
+
+  button {
+    background-image: linear-gradient(
+        162deg,
+       #DF744A,
+       #FD94FF
+       );
+    box-shadow: 5px 5px 5px #888888;
+    color: white;
+
+    width: 206px;
+    height: 73px;
+    font-size: 26px;
+    bottom: 20px;
+    
+    place-self: center;
+    font-weight: bold;
+    position: relative;
+    border: none;
+    outline-color: #dcb239;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+  }
