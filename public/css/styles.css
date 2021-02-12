@@ -98,7 +98,7 @@ body, html{
     border: none;
     position: relative;
     bottom: 17px;
-    
+
     border-color: #cac8c7;
     border-style: solid;
     border-top: none;
@@ -184,4 +184,8 @@ body, html{
     color: white;
     font-weight: 700;
     margin-top: 5px;
+  }
+
+  #olho {
+    cursor: pointer;
   }
