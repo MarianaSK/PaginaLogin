@@ -98,6 +98,13 @@ body, html{
     border: none;
     position: relative;
     bottom: 17px;
+    
+    border-color: #cac8c7;
+    border-style: solid;
+    border-top: none;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
   }
 
   .campo--email {
@@ -159,4 +166,22 @@ body, html{
 
   .botao--registre{
     top: 15px;
+  }
+
+  .voltar {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .div--voltar {
+    text-align: end;
+    margin-right: 15px;
+  }
+
+  .seta--voltar{
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
   }
